@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Getting Started with dl-web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an experimental website of the DesoLabs community.
 
-## Available Scripts
+## Development info
 
-In the project directory, you can run:
+```bash
+git clone git@github.com:desolabs-org/dl-web.git # clone the source code to your local repository
+cd dl-web # enter the project folder
+npm install # install project dependencies
+```
 
-### `npm start`
+Once in the project directory, you can run:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`npm start` - Runs the app in the development mode.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`npm test` - Launches the test runner in the interactive watch mode - [read more on running tests](https://facebook.github.io/create-react-app/docs/running-tests).
 
-### `npm test`
+`npm run build` - Builds the app for production to the `build` folder - [read more on deployment](https://facebook.github.io/create-react-app/docs/deployment).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Relevant documentation
 
-### `npm run build`
+[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[React documentation](https://reactjs.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[React Three Fiber documentation](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Three.js documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
 
-### `npm run eject`
+# License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This source code is licensed under `GNU General Public License v3.0 or later`.
+Contents of this license can be found in the `COPYING` file or [online on GNU website](https://www.gnu.org/licenses/gpl-3.0-standalone.html).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Read more about GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
