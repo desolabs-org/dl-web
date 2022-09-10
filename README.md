@@ -18,6 +18,10 @@ Once in the project directory, you can run:
 
 `npm run build` - Builds the app for production to the `build` folder - [read more on deployment](https://facebook.github.io/create-react-app/docs/deployment).
 
+### Debugging
+
+[React devtools](https://reactjs.org/link/react-devtools)
+
 ## Relevant documentation
 
 [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
@@ -27,6 +31,8 @@ Once in the project directory, you can run:
 [React Three Fiber documentation](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 
 [Three.js documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+
+[Chakra UI documentation](https://chakra-ui.com/getting-started)
 
 # License
 
