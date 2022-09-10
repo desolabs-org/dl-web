@@ -2,14 +2,22 @@
   box-sizing: border-box;
 }
 
-
-#root {
+body, html, #root {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  color: rgb(255, 237, 237);
+  background: rgb(52,39,67);
+  background: -moz-linear-gradient(135deg, rgba(52,39,67,1) 0%, rgba(88,66,113,1) 33%, rgba(75,48,106,1) 74%, rgba(52,39,67,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(52,39,67,1) 0%, rgba(88,66,113,1) 33%, rgba(75,48,106,1) 74%, rgba(52,39,67,1) 100%);
+  background: linear-gradient(135deg, rgba(52,39,67,1) 0%, rgba(88,66,113,1) 33%, rgba(75,48,106,1) 74%, rgba(52,39,67,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#342743",endColorstr="#342743",GradientType=1); 
 }
 
 body {
-  background: white;
+  overscroll-behavior-y: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
