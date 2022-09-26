@@ -11,7 +11,7 @@ export default function HackathonCard(props) {
 			</Box>
 			<VStack>
 				<Heading>
-					community hackathon
+					Community hackathon
 				</Heading>
 				<Text align="center">
 					DeSo Labs - Winter 2022 Hackathon is the first DeSo developer community competition on the topic of creating tools, features, and documentation for DeSo.

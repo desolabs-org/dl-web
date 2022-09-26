@@ -17,17 +17,6 @@ export default function NavBar(props) {
                 <Center>
                     <IconButton 
                         size='lg' 
-                        icon={<HiHashtag />}
-                        colorScheme='blue' 
-                        variant='outline' 
-                        aria-label="Social account"
-                        title="Social account"
-                        onClick={() => window.open('https://node.desolabs.org/u/desolabs')}
-                        />
-                </Center>
-                <Center>
-                    <IconButton 
-                        size='lg' 
                         icon={<BsGithub />} 
                         colorScheme='blue' 
                         variant='outline' 
