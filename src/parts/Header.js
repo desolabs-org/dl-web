@@ -18,11 +18,21 @@ export default function Header(props) {
             <Center>
                 <VStack spacing='1rem'>
                     <Text>
-                        Building tools for DeSo?
+                        
                     </Text>
                     <HStack>
-                        <Button colorScheme='purple'>Join the Discord</Button>
-                        <Button colorScheme='purple'>Join the DAO</Button>
+                        <Button 
+                            onClick={() => window.open('https://discord.gg/TjaFunhqju','_blank')}
+                            title="Community Discord server"
+                            colorScheme='blue'>
+                            Join the Discord
+                        </Button>
+                        <Button 
+                            title="DAODAO account and funding rounds"
+                            onClick={() => window.open('https://daodao.io/d/DeSoLabs','_blank')}
+                            colorScheme='blue'>
+                            Join the DAO
+                        </Button>
                     </HStack>
                 </VStack>
             </Center>

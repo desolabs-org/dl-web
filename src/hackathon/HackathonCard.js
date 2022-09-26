@@ -18,8 +18,10 @@ export default function HackathonCard(props) {
 				</Text>
 			</VStack>
 			<HStack>
-				<Button colorScheme='blue'>Sign up</Button>
-				<Button colorScheme='green'>Read more</Button>
+				<Button colorScheme='blue'
+                        variant='outline' >Sign up</Button>
+				<Button colorScheme='blue'
+                        variant='outline' >Read more</Button>
 			</HStack>
 		</VStack>
 	</Container>

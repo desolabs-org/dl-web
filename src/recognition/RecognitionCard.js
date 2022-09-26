@@ -11,15 +11,18 @@ export default function RecognitionCard(props) {
             </Box>
             <VStack>
                 <Heading>
-                    recognition awards
+                    Recognition awards
                 </Heading>
                 <Text align="center">
-                    Thanks to the support of the amazing community members, we are able to providing recognition awards to community built tools and community operated nodes.
+                    Thanks to the support of the amazing community members, we are providing recognition awards to community built tools and community operated nodes.
                 </Text>
             </VStack>
             <HStack>
-                <Button colorScheme='blue'>Submit tool</Button>
-                <Button colorScheme='green'>DeSo ecosystem</Button>
+                <Button colorScheme='blue'
+                        variant='outline'>Submit tool</Button>
+                <Button colorScheme='blue' 
+                        onClick={() => window.open('https://deso.ninja/tool/node-monitor','_blank')}
+                        variant='outline'>DeSo ecosystem</Button>
             </HStack>
         </VStack>
     </Container>
