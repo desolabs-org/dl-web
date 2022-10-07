@@ -1,11 +1,22 @@
 import { createRoot } from 'react-dom/client'
 import * as React from 'react'
 import './index.css'
-import { ChakraProvider } from "@chakra-ui/react";
-import App from './App'
+import {
+    createBrowserRouter,
+    RouterProvider,
+    Route,
+  } from "react-router-dom";
+import LandingPage from './LandingPage'
+
+const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <LandingPage />,
+    },
+  ]);
 
 createRoot(document.getElementById('root')!).render(
-    <ChakraProvider>
-        <App />
-    </ChakraProvider>
+    <React.StrictMode>
+        <RouterProvider router={router} />
+    </React.StrictMode>
 )

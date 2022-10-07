@@ -4,8 +4,8 @@ import { Wrap, WrapItem } from '@chakra-ui/react'
 import NavBar from './NavBar'
 import Header from './Header'
 import Footer from './Footer'
-import HackathonCard from '../hackathon/HackathonCard'
-import RecognitionCard from '../recognition/RecognitionCard'
+import HackathonCard from '../pages/landing-page/HackathonCard'
+import RecognitionCard from '../pages/landing-page/RecognitionCard'
 
 export default function Foreground(props) {
     return (

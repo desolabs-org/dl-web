@@ -1,8 +1,7 @@
 import { Center } from '@chakra-ui/react'
-import { Flex, Spacer, HStack } from '@chakra-ui/react'
-import { Heading, Text, IconButton, Image } from '@chakra-ui/react'
+import { Flex, HStack } from '@chakra-ui/react'
+import { Text, IconButton, Image } from '@chakra-ui/react'
 import { BsGithub } from 'react-icons/bs';
-import { HiHashtag } from 'react-icons/hi';
 
 export default function NavBar(props) {
     return (
