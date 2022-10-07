@@ -18,10 +18,9 @@ export default function HackathonCard(props) {
 				</Text>
 			</VStack>
 			<HStack>
+				<Button colorScheme='blue' onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}>Sign up</Button>
 				<Button colorScheme='blue'
-                        variant='outline' >Sign up</Button>
-				<Button colorScheme='blue'
-                        variant='outline' >Read more</Button>
+                        variant='outline' >Hackathon rules</Button>
 			</HStack>
 		</VStack>
 	</Container>

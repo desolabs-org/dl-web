@@ -7,7 +7,7 @@ export default function Footer(props) {
             <VStack borderTop='1px solid lightblue' px='1rem' pt='0.75rem' mb='4rem'>
                 <Text>
                     <Link 
-                        href='https://node.desolabs.org/u/desolabs'>Made with 💙 by DeSo Labs community</Link>
+                        href='https://love4src.com/u/desolabs'>Made with 💙 by DeSo Labs community</Link>
                 </Text>
             </VStack>
         </Center>

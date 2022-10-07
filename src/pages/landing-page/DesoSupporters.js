@@ -58,7 +58,7 @@ class DesoSupporters extends React.Component {
                 <Heading 
                     size='lg'
                     mb='1rem'
-                >Thank you to our leading supporters!</Heading>
+                >Big thank you to our supporters!</Heading>
             <Wrap
                 justify='center'
             >
