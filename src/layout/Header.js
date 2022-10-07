@@ -1,6 +1,6 @@
 import { Center } from '@chakra-ui/react'
-import { VStack, HStack } from '@chakra-ui/react'
-import { Heading, Text, Button } from '@chakra-ui/react'
+import { VStack } from '@chakra-ui/react'
+import { Heading, Text } from '@chakra-ui/react'
 
 export default function Header(props) {
     return (

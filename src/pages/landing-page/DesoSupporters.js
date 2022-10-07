@@ -62,10 +62,10 @@ class DesoSupporters extends React.Component {
             <Wrap
                 justify='center'
             >
-            {items.filter(i => i.BalanceNanos > 1_000_000 && i.ProfileEntryResponse != undefined).map(item => (
+            {items.filter(i => i.BalanceNanos > 1_000_000 && i.ProfileEntryResponse !== undefined).map(item => (
                 <WrapItem>
                     <Link
-                        href={'https://love4src.com/u/' + item.ProfileEntryResponse.Username}
+                        href={'https://diamondapp.com/u/' + item.ProfileEntryResponse.Username}
                         target='_blank'
                     >
                     <Image 
@@ -74,12 +74,13 @@ class DesoSupporters extends React.Component {
                         boxSize='4rem'
                         objectFit='cover'
                         title={item.ProfileEntryResponse.Username}
-                        src={'https://love4src.com/api/v0/get-single-profile-picture/' + item.HODLerPublicKeyBase58Check + '?fallback=https://love4src.com/assets/img/default_profile_pic.png'} 
+                        src={'https://diamondapp.com/api/v0/get-single-profile-picture/' + item.HODLerPublicKeyBase58Check + '?fallback=https://diamondapp.com/assets/img/default_profile_pic.png'} 
                     />
                     </Link>
                 </WrapItem>
             ))}
             </Wrap>
+                <Text>Join this list by holding at least 0.001 <Link href='https://diamondapp.com/u/desolabs' target='_blank'>$DesoLabs</Link> coins.</Text>
             </VStack>
         );
         }

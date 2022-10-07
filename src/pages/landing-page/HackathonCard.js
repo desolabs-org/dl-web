@@ -14,7 +14,7 @@ export default function HackathonCard(props) {
 					Community hackathon
 				</Heading>
 				<Text align="center">
-					DeSo Labs - Winter 2022 Hackathon is the first DeSo developer community competition on the topic of creating tools, features, and documentation for DeSo.
+					Crypto-winter 2022 is the first competition for and by the DeSo developer community on the topic of creating tools, features, and documentation for DeSo.
 				</Text>
 			</VStack>
 			<HStack>
