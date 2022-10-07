@@ -34,6 +34,8 @@ Once in the project directory, you can run:
 
 [Chakra UI documentation](https://chakra-ui.com/getting-started)
 
+[React Router documentation](https://reactrouter.com/en/main)
+
 # License
 
 This source code is licensed under `GNU General Public License v3.0 or later`.
