@@ -14,7 +14,7 @@ export default function RecognitionCard(props) {
                     Recognition awards
                 </Heading>
                 <Text align="center">
-                    Thanks to the support of the amazing community members, we are providing recognition awards to community built tools and community operated nodes.
+                    Thanks to the support of the amazing community members, we are providing recognition awards to community built apps and nodes.
                 </Text>
             </VStack>
             <HStack>
