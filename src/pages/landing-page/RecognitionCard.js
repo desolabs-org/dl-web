@@ -18,9 +18,9 @@ export default function RecognitionCard(props) {
                 </Text>
             </VStack>
             <HStack>
-                <Button colorScheme='blue' 
-                    onClick={() => window.open('https://deso.ninja/tool/node-monitor','_blank')}
-                    variant='outline'>Ecosystem monitor</Button>
+                <Button colorScheme='blue'
+                    onClick={() => window.open('https://discord.gg/f78vdXGv?event=1029778674574172180', '_blank')}
+                    variant='outline'>Join event</Button>
             </HStack>
         </VStack>
     </Container>
