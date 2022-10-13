@@ -14,13 +14,13 @@ export default function RecognitionCard(props) {
                     Recognition awards
                 </Heading>
                 <Text align="center">
-                    Thanks to the support of the amazing community members, we are providing recognition awards to community built apps and nodes.
+                    Thanks to the support of the amazing community members, we are providing recognition awards to DeSo developers.
                 </Text>
             </VStack>
             <HStack>
                 <Button colorScheme='blue'
                     onClick={() => window.open('https://discord.gg/f78vdXGv?event=1029778674574172180', '_blank')}
-                    variant='outline'>Join event</Button>
+                    >Join event</Button>
             </HStack>
         </VStack>
     </Container>
