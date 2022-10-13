@@ -18,10 +18,9 @@ export default function RecognitionCard(props) {
                 </Text>
             </VStack>
             <HStack>
-                <Button colorScheme='blue'>Submit tool</Button>
                 <Button colorScheme='blue' 
                     onClick={() => window.open('https://deso.ninja/tool/node-monitor','_blank')}
-                    variant='outline'>Apps catalogue</Button>
+                    variant='outline'>Ecosystem monitor</Button>
             </HStack>
         </VStack>
     </Container>
