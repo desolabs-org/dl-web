@@ -27,7 +27,7 @@ export default function Timeline(props) {
                     <Text align='center'>
                         Join the voice event on Clubhouse to learn about the schedule and rules of the hackathon. Silver and gold sponsor NFTs will be made available during the event.
                     </Text>
-                    <Button href='https://www.clubhouse.com/event/PY6Rvo7z' target='_blank'
+                    <Button onClick={() => window.open('https://www.clubhouse.com/event/PY6Rvo7z', '_blank')}
                             color='blue.800'
                         >Join us on Clubhouse</Button>
                 </VStack>
@@ -48,7 +48,7 @@ export default function Timeline(props) {
                     <Text align='center'>
                         Hackathon is a cross-disciplinary event, so we will help to facilitate opportunities to team up with others and build an amazing hackathon project together.
                     </Text>
-                    <Button href='https://tally.so/r/n0QXGP' target='_blank'
+                    <Button onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}
                             color='green.800'
                         >Sign up for the hackathon</Button>
                 </VStack>
@@ -69,9 +69,9 @@ export default function Timeline(props) {
                     <Text align='center'>
                         We will start accepting submissions from participating project teams and qualify them for community voting on a first come, first serve basis.
                     </Text>
-                    <Button 
+                    <Button disabled='true'
                             color='red.800'
-                        >Rules for project qualification</Button>
+                        >Rules for project qualification (TBA)</Button>
                 </VStack>
             </VerticalTimelineElement>
 
@@ -90,7 +90,7 @@ export default function Timeline(props) {
                     <Text align='center'>
                         We will stop accepting new participants into the hackathon and burn all remaining sponsor NFTs.
                     </Text>
-                    <Button href='https://desolabs.nftz.me/' target='_blank'
+                    <Button onClick={() => window.open('https://desolabs.nftz.me/', '_blank')}
                             color='purple.800'
                         >Get them while you can!</Button>
                 </VStack>
@@ -113,7 +113,7 @@ export default function Timeline(props) {
                     </Text>
                     <Button color='green.800'
                         disabled='true'
-                        >Voting not open yet</Button>
+                        >Voting machine (TBA)</Button>
                 </VStack>
             </VerticalTimelineElement>
             
@@ -132,9 +132,9 @@ export default function Timeline(props) {
                     <Text align='center'>
                         DeSoLabs crew stops accepting new submissions from participating projects and qualifying them for community votes.
                     </Text>
-                    <Button 
+                    <Button disabled='true'
                             color='red.800'
-                        >Rules for project qualification</Button>
+                        >Rules for final project grading (TBA)</Button>
                 </VStack>
             </VerticalTimelineElement>
             
@@ -156,7 +156,7 @@ export default function Timeline(props) {
                     <Button 
                             color='yellow.800'
                             disabled='true'
-                        >To be announced...</Button>
+                        >Awards event (TBA)</Button>
                 </VStack>
             </VerticalTimelineElement>
             

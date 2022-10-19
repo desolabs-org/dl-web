@@ -6,7 +6,7 @@ export default function Header(props) {
     return (
         <VStack mt="6rem" spacing='1rem'>
             <Center>
-                <Heading as='h1' size='2xl' align="center">
+                <Heading size='2xl' align="center">
                     Decentralized Social Labs
                 </Heading>
             </Center>
