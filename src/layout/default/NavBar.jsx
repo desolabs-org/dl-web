@@ -2,13 +2,21 @@ import { Heading, Link } from '@chakra-ui/react'
 import { Flex, HStack } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
 import { BsGithub, BsDiscord, BsGem } from 'react-icons/bs';
+import { useNavigate } from 'react-router-dom';
 
 export default function NavBar(props) {
+    let navigate = useNavigate();
+
     return (
         <Flex h='4rem' pt='1rem'>
                 <Image src='/logo192.png' 
-                        boxSize='2.5rem' mr='0.5rem'/>
-            <Heading flex='1' size='lg'>
+                        boxSize='2.5rem' mr='0.5rem'
+                        cursor='pointer'
+                        onClick={() => navigate('/')}
+                        />
+            <Heading flex='1' 
+                    cursor='pointer'
+                    onClick={() => navigate('/')} size='lg'>
                 DeSo Labs
             </Heading>
             <Heading>

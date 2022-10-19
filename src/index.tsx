@@ -5,12 +5,26 @@ import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
-import LandingPage from './LandingPage'
+import DefaultLayout from './layout/DefaultLayout'
+import LandingPage from './pages/landing/LandingPage'
+import HackathonPage from './pages/hackathon/HackathonPage';
+import ErrorPage from './pages/ErrorPage';
 
 const router = createBrowserRouter([
     {
-      path: "/",
-      element: <LandingPage />,
+      path: "*",
+      element: <DefaultLayout />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          index: true,
+          element: <LandingPage />,
+        },
+        {
+          path: "hackathon/2022",
+          element: <HackathonPage />,
+        },
+      ]
     },
   ]);
 
