@@ -6,6 +6,7 @@ import { Heading, Text } from '@chakra-ui/react'
 import { BsFillMegaphoneFill, BsFillPersonLinesFill, BsFillStarFill, BsPlayCircleFill, BsStopwatchFill } from 'react-icons/bs';
 import { IoIosFlame } from 'react-icons/io';
 import { MdHowToVote } from 'react-icons/md';
+import ProjectQualification from './ProjectQualification';
 
 
 export default function Timeline(props) {
@@ -69,9 +70,7 @@ export default function Timeline(props) {
                     <Text align='center'>
                         We will start accepting submissions from participating project teams and qualify them for community voting on a first come, first serve basis.
                     </Text>
-                    <Button disabled='true'
-                            color='red.800'
-                        >Rules for project qualification (TBA)</Button>
+                    <ProjectQualification />
                 </VStack>
             </VerticalTimelineElement>
 
