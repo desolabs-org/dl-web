@@ -129,11 +129,11 @@ export default function Timeline(props) {
                         Hackathon ends
                     </Heading>
                     <Text align='center'>
-                        DeSoLabs crew stops accepting new submissions from participating projects and qualifying them for community votes.
+                        DeSoLabs crew stops accepting new submissions from participating projects and qualifying them for votes done by the sponsorship NFT owners.
                     </Text>
                     <Button disabled='true'
                             color='red.800'
-                        >Rules for final project grading (TBA)</Button>
+                        >Project grading guidelines (TBA)</Button>
                 </VStack>
             </VerticalTimelineElement>
             

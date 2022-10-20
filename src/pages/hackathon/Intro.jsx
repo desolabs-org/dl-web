@@ -18,16 +18,22 @@ export default function Intro() {
 
           <Wrap spacing='40px' justify='center' mt='6'>
                 <WrapItem>
-                    <Image src='/dl-diamond-gold-min.gif' height='200px'/>
+                    <Link href='https://diamondapp.com/nft/27c914ddbad7674a82a9f5cd002febf5adbb87df467fe73741593bf11d8a0d42' target='_blank'>
+                        <Image src='/dl-diamond-gold-min.gif' height='200px'/>
+                    </Link>
                 </WrapItem>
                 <Show above='md'>
                     <WrapItem>
-                        <Image src='/dl-diamond-silver-min.gif' height='200px'/>
+                        <Link href='https://diamondapp.com/nft/ece78b9f3f20c678f9433349fe6df2f32a410f17816d2e371714452b1ca32998' target='_blank'>
+                            <Image src='/dl-diamond-silver-min.gif' height='200px'/>
+                        </Link>
                     </WrapItem>
                 </Show>
                 <Show above='lg'>
                     <WrapItem>
-                        <Image src='/dl-diamond-mint-min.gif' height='200px'/>
+                        <Link href='https://diamondapp.com/nft/0dfe7d735e756ce89f92bbd2b6a16f6ef3da621169bd507b20778a5b0bed6726' target='_blank'>
+                            <Image src='/dl-diamond-mint-min.gif' height='200px'/>
+                        </Link>
                     </WrapItem>
                 </Show>
           </Wrap>
@@ -35,15 +41,15 @@ export default function Intro() {
 
           <Heading fontSize='2xl' mt='12'>Hackathon participation</Heading>
           <Text fontSize='md' mt='4'>
-            This is an open community event, open for everybody to participate in. 
-            As an unlikely exception, we reserve the right to exclude selected individuals or groups from the event at our discretion.
+          Participants in the hackathon are forming project teams, that are invited to improve the decentralized ecosystem. 
+            As an unlikely exception, we might exclude selected individuals or groups from the event.
           </Text>
           <Text fontSize='md' mt='4'>
-            Participants in the hackathon are forming project teams, that are invited to improve the decentralized ecosystem. 
-            Project are qualified based on the <Link href='https://tally.so/r/n0QXGP' target='_blank'>submissions to the hackathon made via this form</Link>.
+            Projects are qualified based on the <Link href='https://tally.so/r/n0QXGP' target='_blank'>submissions to the hackathon</Link> and further communications with the DeSoLabs crew.
+            We will assist participants in forming of the project teams if necessary.
           </Text>
           <Text fontSize='md' mt='4'>
-            DeSoLabs crew will publicly announce every participating project to avoid doubt, promote team completion and support the early stage hype.
+            DeSoLabs crew will publicly announce every participating project to: avoid doubt, promote completion of teams and support the early stage hype of the projects.
           </Text>
       </Container>
     </VStack>
