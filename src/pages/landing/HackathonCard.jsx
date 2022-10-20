@@ -19,10 +19,10 @@ export default function HackathonCard(props) {
 				</Text>
 			</VStack>
 			<HStack>
-				<Button colorScheme='blue' onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}>Sign up</Button>
+				<Button colorScheme='blue' onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}>Join the hackathon</Button>
 				<Button colorScheme='blue' to={`/hackathon/2022`}
 					as={Link}
-				>Read more!</Button>
+				>Read more...</Button>
 			</HStack>
 		</VStack>
 	</Container>
