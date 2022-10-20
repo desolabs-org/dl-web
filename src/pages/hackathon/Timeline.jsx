@@ -7,6 +7,7 @@ import { BsFillMegaphoneFill, BsFillPersonLinesFill, BsFillStarFill, BsPlayCircl
 import { IoIosFlame } from 'react-icons/io';
 import { MdHowToVote } from 'react-icons/md';
 import ProjectQualification from './ProjectQualification';
+import ProjectGrading from './ProjectGrading';
 
 
 export default function Timeline(props) {
@@ -131,9 +132,7 @@ export default function Timeline(props) {
                     <Text align='center'>
                         DeSoLabs crew stops accepting new submissions from participating projects and qualifying them for votes done by the sponsorship NFT owners.
                     </Text>
-                    <Button disabled='true'
-                            color='red.800'
-                        >Project grading guidelines (TBA)</Button>
+                    <ProjectGrading />
                 </VStack>
             </VerticalTimelineElement>
             

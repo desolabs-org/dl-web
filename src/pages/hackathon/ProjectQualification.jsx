@@ -17,7 +17,7 @@ export default function ProjectQualification() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   return (
     <>
-      <Button onClick={onOpen} color='red.800'>Qualification guidelines</Button>
+      <Button onClick={onOpen} color='red.800'>Project qualification guidelines</Button>
 
       <Modal isOpen={isOpen} onClose={onClose} size='xl' isCentered>
         <ModalOverlay />
