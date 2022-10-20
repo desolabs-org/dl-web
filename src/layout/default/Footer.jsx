@@ -9,7 +9,7 @@ export default function Footer(props) {
                     <Link 
                         href='https://diamondapp.com/u/desolabs'
                         target='_blank'
-                        >Made with 💙 by DeSo Labs community</Link>
+                        >Made with 💙 by DeSo Labs crew</Link>
                 </Text>
             </VStack>
         </Center>
