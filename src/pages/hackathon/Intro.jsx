@@ -4,13 +4,38 @@ import { Box, Button, Container, Heading, HStack, Image, Link, Show, Text, VStac
 import { MdOutlineDoubleArrow } from 'react-icons/md';
 import SponsorshipInfo from './SponsorshipInfo';
 import ProjectsInfo from './ProjectsInfo';
+import SilverSponsors from './SilverSponsors';
+import CommunitySponsors from './CommunitySponsors';
 
 export default function Intro() {
   return (
     <VStack spacing='12'>
       <Container maxW='container.md'  align="center">
+          <Box bgColor='rgba(29, 12, 0, 0.15)' mb='5rem' p='2rem'>
+            <Heading fontSize='3xl'>Hackathon participation</Heading>
+            <VStack spacing='2rem'>
+              
+              <Text fontSize='md' mt='4'>
+                This is an inter-disciplinary event! We invite everybody to join and compete to improve the technical landscape of our decentralized future.
+              </Text>
+              
+              <VStack>
+                <Text fontSize='2xl' align="center"
+                    fontFamily='monospace'>
+                    Current participants: 12+
+                </Text>
+              </VStack>
+              <HStack spacing='1rem'>
+                <ProjectsInfo />
+                <Button 
+                  rightIcon={<MdOutlineDoubleArrow />}
+                  colorScheme='blue'
+                  onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}>Join the hackathon</Button>
+              </HStack>
+            </VStack>
+          </Box>
 
-          <Heading fontSize='3xl' mt='2rem'>Hackathon sponsorship</Heading>
+          <Heading fontSize='3xl' mt='2rem'>Hackathon sponsorship NFTs</Heading>
           <Wrap spacing='40px' justify='center'>
                 <Show above='lg'>
                   <WrapItem>
@@ -34,9 +59,6 @@ export default function Intro() {
                 </WrapItem>
           </Wrap>
           <VStack spacing='2rem'>
-            <Text fontSize='sm' as='em' px='1rem'>
-              Note: the prize pool grows with sales of each NFT. Community&nbsp;sponsors:&nbsp;20+
-            </Text>
             <HStack spacing='1rem'>
               <SponsorshipInfo />
               <Button 
@@ -46,29 +68,11 @@ export default function Intro() {
             </HStack>
           </VStack>
 
-          <Box bgColor='rgba(29, 12, 0, 0.15)' mt='5rem' p='2rem'>
-            <Heading fontSize='3xl'>Hackathon participation</Heading>
-            <VStack spacing='2rem'>
-              
-              <Text fontSize='md' mt='4'>
-                This is an inter-disciplinary event! We invite everybody to join and compete to improve the technical landscape of our decentralized future.
-              </Text>
-              
-              <VStack>
-                <Text fontSize='2xl' align="center"
-                    fontFamily='monospace'>
-                    Current participants: 12+
-                </Text>
-              </VStack>
-              <HStack spacing='1rem'>
-                <ProjectsInfo />
-                <Button 
-                  rightIcon={<MdOutlineDoubleArrow />}
-                  colorScheme='blue'
-                  onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}>Join the hackathon</Button>
-              </HStack>
-            </VStack>
-          </Box>
+          <VStack>
+            <SilverSponsors />
+            <CommunitySponsors />
+          </VStack>
+
       </Container>
     </VStack>
   )

@@ -119,7 +119,7 @@ export default function Timeline(props) {
                         Voting on projects starts on a first come first serve basis, no new project teams will be added to the hackathon.
                     </Text>
                     <Button color='green.800'
-                        disabled='true'
+                        disabled={true}
                         >Voting machine (TBA)</Button>
                 </VStack>
             </VerticalTimelineElement>
@@ -160,7 +160,7 @@ export default function Timeline(props) {
                     </Text>
                     <Button 
                             color='yellow.800'
-                            disabled='true'
+                            disabled={true}
                         >Awards event (TBA)</Button>
                 </VStack>
             </VerticalTimelineElement>

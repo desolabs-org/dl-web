@@ -1,6 +1,7 @@
 import { Center, Link } from '@chakra-ui/react'
 import { VStack } from '@chakra-ui/react'
 import { Heading, Text } from '@chakra-ui/react'
+import PrizePool from './PrizePool';
 
 export default function Header(props) {
     return (
@@ -19,11 +20,15 @@ export default function Header(props) {
                         decentralizing social networks in general and&nbsp;<Link href='https://deso.com' target='_blank'>DeSo&nbsp;in&nbsp;particular</Link>
                     </Text>
                 </VStack>
-                <VStack>
+                <VStack spacing='0'>
                     
                     <Text fontSize='2xl' align="center"
                         fontFamily='monospace'>
-                        Current prize pool: $5500+
+                        Current prize pool: <PrizePool />
+                    </Text>
+                    
+                    <Text fontSize='sm' as='em' px='1rem'>
+                        ~ grows with the sales of sponsorship NFTs ~
                     </Text>
                 </VStack>
             </VStack>
