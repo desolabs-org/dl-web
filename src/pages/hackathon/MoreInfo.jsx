@@ -1,8 +1,8 @@
 /* eslint-disable */
 
 import { Box, Button, Container, Heading, Icon, Link, Text, VStack } from '@chakra-ui/react'
-import { BsMusicNoteBeamed } from 'react-icons/bs'
 import { MdNoteAlt } from 'react-icons/md'
+import { MdOutlineDoubleArrow } from 'react-icons/md';
 
 export default function MoreInfo() {
   return (
@@ -22,7 +22,10 @@ export default function MoreInfo() {
         </VStack>
       </Box>
       <Heading mt='12'>Are you ready?</Heading>
-      <Button colorScheme='blue' onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}>Join the hackathon!</Button>
+      <Button 
+      
+        rightIcon={<MdOutlineDoubleArrow />}
+        colorScheme='blue' onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}>Join the hackathon</Button>
     </>
   )
 }

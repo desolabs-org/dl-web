@@ -8,10 +8,10 @@ import Timeline from './Timeline'
 
 export default function HackathonPage() {
   return (
-    <VStack spacing='12'>
+    <VStack spacing='16'>
       <Header />
       <Intro />
-      <Heading size='lg'>Timeline</Heading>
+      <Heading size='2xl'>Timeline</Heading>
       <Timeline />
       <MoreInfo />
     </VStack>

@@ -8,6 +8,7 @@ import { IoIosFlame } from 'react-icons/io';
 import { MdHowToVote } from 'react-icons/md';
 import ProjectQualification from './ProjectQualification';
 import ProjectGrading from './ProjectGrading';
+import { MdOutlineDoubleArrow } from 'react-icons/md';
 
 
 export default function Timeline(props) {
@@ -27,11 +28,14 @@ export default function Timeline(props) {
                         Hackathon announcement
                     </Heading>
                     <Text align='center'>
-                        Join the voice event on Clubhouse to learn about the schedule and rules of the hackathon. Silver and gold sponsor NFTs will be made available during the event.
+                        Tune in to the hackathon announcement event to hear about the schedule and rules of the event. 
+                        Aside the Q&A we have opened silver and gold sponsor NFTs for sale.
                     </Text>
-                    <Button onClick={() => window.open('https://www.clubhouse.com/event/PY6Rvo7z', '_blank')}
-                            color='blue.800'
-                        >Join us on Clubhouse</Button>
+                    <Button 
+                        rightIcon={<MdOutlineDoubleArrow />}
+                        onClick={() => window.open('https://www.clubhouse.com/event/PY6Rvo7z', '_blank')}
+                            colorScheme='blue'
+                        >Listen to replay on Clubhouse</Button>
                 </VStack>
             </VerticalTimelineElement>
             
@@ -50,7 +54,9 @@ export default function Timeline(props) {
                     <Text align='center'>
                         Hackathon is a cross-disciplinary event, so we will help to facilitate opportunities to team up with others and build an amazing hackathon project together.
                     </Text>
-                    <Button onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}
+                    <Button 
+                        rightIcon={<MdOutlineDoubleArrow />}
+                        onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}
                             color='green.800'
                         >Sign up for the hackathon</Button>
                 </VStack>
@@ -90,7 +96,9 @@ export default function Timeline(props) {
                     <Text align='center'>
                         We will stop accepting new participants into the hackathon and burn all remaining sponsor NFTs.
                     </Text>
-                    <Button onClick={() => window.open('https://desolabs.nftz.me/', '_blank')}
+                    <Button 
+                        rightIcon={<MdOutlineDoubleArrow />}
+                        onClick={() => window.open('https://desolabs.nftz.me/', '_blank')}
                             color='purple.800'
                         >Get them while you can!</Button>
                 </VStack>
