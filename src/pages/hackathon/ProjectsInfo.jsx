@@ -26,7 +26,7 @@ export default function ProjectsInfo() {
           <ModalCloseButton />
           <ModalBody>
             <Text>
-              We will start qualifying projects on 1st of November, to give time for early participants to join and form the project teams.
+            To give time for early participants to join and form the project teams, we will start qualifying projects on the 1st of November.
             </Text>
             <Text mt='4'>
               We will publicly announce every participating project to: avoid doubt, promote completion of teams and support the early stage hype of the projects.  

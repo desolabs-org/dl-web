@@ -24,18 +24,17 @@ export default function Timeline(props) {
                 icon={<BsFillMegaphoneFill />}
             >
                 <VStack spacing='5'>
-                    <Heading as='h3' size='lg'>
+                    <Heading as='h3' size='md'>
                         Hackathon announcement
                     </Heading>
                     <Text align='center'>
-                        Tune in to the hackathon announcement event to hear about the schedule and rules of the event. 
-                        Aside the Q&A we have opened silver and gold sponsor NFTs for sale.
+                        Comments on schedule and rules of the event, Q&A, opening of silver and gold sponsor NFTs for sale.
                     </Text>
                     <Button 
                         rightIcon={<MdOutlineDoubleArrow />}
                         onClick={() => window.open('https://www.clubhouse.com/event/PY6Rvo7z', '_blank')}
                             colorScheme='blue'
-                        >Listen to replay on Clubhouse</Button>
+                        >Listen to the replay on Clubhouse</Button>
                 </VStack>
             </VerticalTimelineElement>
             

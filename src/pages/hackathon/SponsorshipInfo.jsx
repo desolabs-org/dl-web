@@ -25,8 +25,11 @@ export default function SponsorshipInfo() {
           <ModalHeader>Sponsorship of the community hackathon</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <Text>Prizes for this hackathon are funded from the sales of sponsorship NFTs!</Text>
-            <Text mt='4'>Owners of the NFTs get a banner, avatar, or a nickname listed as a hackathon sponsor and be able to vote on the hackathon projects!</Text>
+            <Text>Help us grow the prize pool of this hackathon by grabbing one of the sponsorship NFTs!</Text>
+            <Text mt='4'>Gold NFT owners get a banner on the hackathon's page.</Text>
+            <Text mt='4'>Silver NFT owners get their avatar listed on the hackathon's page.</Text>
+            <Text mt='4'>Community NFT owners get their name listed on the hackathon's page.</Text>
+            <Text mt='4'>Each owner of the sponsor NFT(s) can vote on the hackathon projects and will receive lots of good karma and community appreciation.</Text>
           </ModalBody>
 
           <ModalFooter>
