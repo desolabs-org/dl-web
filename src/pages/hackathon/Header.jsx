@@ -28,7 +28,7 @@ export default function Header(props) {
                     </Text>
                     
                     <Text fontSize='sm' as='em' px='1rem'>
-                        ~ grows with the sales of sponsorship NFTs ~
+                        ~ grows with community and NFT contributions ~
                     </Text>
                 </VStack>
             </VStack>

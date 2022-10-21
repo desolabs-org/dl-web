@@ -62,9 +62,9 @@ class SilverSponsors extends React.Component {
                         <WrapItem key={'ss-' + item.SerialNumber}>
                             <Link href={'https://diamondapp.com/u/' + item.ProfileEntryResponse.Username} target='_blank'>
                                 <Image 
-                                    m='0.5rem'
+                                    m='0.2rem'
                                     borderRadius='full'
-                                    boxSize='4rem'
+                                    boxSize='3rem'
                                     objectFit='cover'
                                     src={'https://diamondapp.com/api/v0/get-single-profile-picture/' + item.OwnerPublicKeyBase58Check + '?fallback=https://diamondapp.com/assets/img/default_profile_pic.png'} 
                                 />
