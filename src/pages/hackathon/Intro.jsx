@@ -22,7 +22,7 @@ export default function Intro() {
               <VStack>
                 <Text fontSize='2xl' align="center"
                     fontFamily='monospace'>
-                    Current participants: 12+
+                    Current participants: 16+
                 </Text>
               </VStack>
               <HStack spacing='1rem'>

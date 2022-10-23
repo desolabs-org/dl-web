@@ -66,6 +66,7 @@ class SilverSponsors extends React.Component {
                                     borderRadius='full'
                                     boxSize='3rem'
                                     objectFit='cover'
+                                    title={item.ProfileEntryResponse.Username}
                                     src={'https://diamondapp.com/api/v0/get-single-profile-picture/' + item.OwnerPublicKeyBase58Check + '?fallback=https://diamondapp.com/assets/img/default_profile_pic.png'} 
                                 />
                             </Link>

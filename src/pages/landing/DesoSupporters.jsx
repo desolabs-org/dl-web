@@ -1,4 +1,4 @@
-import { Heading, Image, Link, Text, VStack, Wrap, WrapItem } from '@chakra-ui/react';
+import { Container, Heading, Image, Link, Text, VStack, Wrap, WrapItem } from '@chakra-ui/react';
 import React from 'react'
 
 class DesoSupporters extends React.Component {
@@ -59,27 +59,29 @@ class DesoSupporters extends React.Component {
                     size='lg'
                     mb='1rem'
                 >Big thank you to our supporters!</Heading>
-            <Wrap
-                justify='center'
-            >
-            {items.filter(i => i.BalanceNanos > 1_000_000 && i.ProfileEntryResponse !== undefined).map(item => (
-                <WrapItem>
-                    <Link
-                        href={'https://diamondapp.com/u/' + item.ProfileEntryResponse.Username}
-                        target='_blank'
+                <Container maxW='container.lg'>
+                    <Wrap
+                        justify='center'
                     >
-                    <Image 
-                        m='0.5rem'
-                        borderRadius='full'
-                        boxSize='4rem'
-                        objectFit='cover'
-                        title={item.ProfileEntryResponse.Username}
-                        src={'https://diamondapp.com/api/v0/get-single-profile-picture/' + item.HODLerPublicKeyBase58Check + '?fallback=https://diamondapp.com/assets/img/default_profile_pic.png'} 
-                    />
-                    </Link>
-                </WrapItem>
-            ))}
-            </Wrap>
+                    {items.filter(i => i.BalanceNanos > 1_000_000 && i.ProfileEntryResponse !== undefined).map(item => (
+                        <WrapItem>
+                            <Link
+                                href={'https://diamondapp.com/u/' + item.ProfileEntryResponse.Username}
+                                target='_blank'
+                            >
+                            <Image 
+                                m='0.2rem'
+                                borderRadius='full'
+                                boxSize='3rem'
+                                objectFit='cover'
+                                title={item.ProfileEntryResponse.Username}
+                                src={'https://diamondapp.com/api/v0/get-single-profile-picture/' + item.HODLerPublicKeyBase58Check + '?fallback=https://diamondapp.com/assets/img/default_profile_pic.png'} 
+                            />
+                            </Link>
+                        </WrapItem>
+                    ))}
+                    </Wrap>
+                </Container>
                 <Text>Join this list by holding at least 0.001 <Link href='https://diamondapp.com/u/desolabs' target='_blank'>$DesoLabs</Link> coins.</Text>
             </VStack>
         );
