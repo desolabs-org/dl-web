@@ -17,7 +17,9 @@ export default function SponsorshipInfo() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   return (
     <>
-      <Button onClick={onOpen} colorScheme='blue'>Sponsorship info</Button>
+      <Button onClick={onOpen} colorScheme='blue'
+        variant='outline'
+      >Sponsorship info</Button>
 
       <Modal isOpen={isOpen} onClose={onClose} size='xl' isCentered>
         <ModalOverlay />

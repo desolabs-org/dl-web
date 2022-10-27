@@ -17,7 +17,7 @@ export default function ProjectsInfo() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   return (
     <>
-      <Button onClick={onOpen} colorScheme='blue'>Hackathon projects</Button>
+      <Button onClick={onOpen} colorScheme='blue' variant='outline'>Participation info</Button>
 
       <Modal isOpen={isOpen} onClose={onClose} size='xl' isCentered>
         <ModalOverlay />

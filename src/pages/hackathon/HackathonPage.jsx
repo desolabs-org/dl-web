@@ -11,7 +11,7 @@ export default function HackathonPage() {
     <VStack spacing='16'>
       <Header />
       <Intro />
-      <Heading size='2xl'>Timeline</Heading>
+      <Heading size='2xl' id="timeline">Timeline</Heading>
       <Timeline />
       <MoreInfo />
     </VStack>

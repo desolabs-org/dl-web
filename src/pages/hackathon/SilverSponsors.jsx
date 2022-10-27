@@ -1,4 +1,4 @@
-import { Heading, Image, Link, Text, VStack, Wrap, WrapItem } from '@chakra-ui/react';
+import { Container, Heading, Image, Link, VStack, Wrap, WrapItem } from '@chakra-ui/react';
 import React from 'react'
 
 class SilverSponsors extends React.Component {
@@ -49,32 +49,34 @@ class SilverSponsors extends React.Component {
         return <div>Loading...</div>;
         } else {
         return (
-            <VStack mt='4rem'>
-                <Heading fontSize='lg'>
-                    Silver sponsors
-                </Heading>
-                <Wrap
-                    justify='center'
-                >
-                {items.filter(i => (i.OwnerPublicKeyBase58Check != 'BC1YLjBvzHjemzgY4va55AzZ7VhRBLDmjxsfxRHQ9PybPARMQvtDH5N' && i.IsPending === false))
-                    .sort((l, r) => l.SerialNumber - r.SerialNumber)
-                    .map(item => (
-                        <WrapItem key={'ss-' + item.SerialNumber}>
-                            <Link href={'https://diamondapp.com/u/' + item.ProfileEntryResponse.Username} target='_blank'>
-                                <Image 
-                                    m='0.2rem'
-                                    borderRadius='full'
-                                    boxSize='3rem'
-                                    objectFit='cover'
-                                    title={item.ProfileEntryResponse.Username}
-                                    src={'https://diamondapp.com/api/v0/get-single-profile-picture/' + item.OwnerPublicKeyBase58Check + '?fallback=https://diamondapp.com/assets/img/default_profile_pic.png'} 
-                                />
-                            </Link>
-                        </WrapItem>
-                    ))}
-                
-                </Wrap>
-            </VStack>
+            <Container>
+                <VStack mt='2rem'>
+                    <Heading fontSize='lg'>
+                        Silver sponsors
+                    </Heading>
+                    <Wrap
+                        justify='center'
+                    >
+                    {items.filter(i => (i.OwnerPublicKeyBase58Check !== 'BC1YLjBvzHjemzgY4va55AzZ7VhRBLDmjxsfxRHQ9PybPARMQvtDH5N' && i.IsPending === false))
+                        .sort((l, r) => l.SerialNumber - r.SerialNumber)
+                        .map(item => (
+                            <WrapItem key={'ss-' + item.SerialNumber}>
+                                <Link href={'https://diamondapp.com/u/' + item.ProfileEntryResponse.Username} target='_blank'>
+                                    <Image 
+                                        m='0.25rem'
+                                        borderRadius='full'
+                                        boxSize='4rem'
+                                        objectFit='cover'
+                                        title={item.ProfileEntryResponse.Username}
+                                        src={'https://diamondapp.com/api/v0/get-single-profile-picture/' + item.OwnerPublicKeyBase58Check + '?fallback=https://diamondapp.com/assets/img/default_profile_pic.png'} 
+                                    />
+                                </Link>
+                            </WrapItem>
+                        ))}
+                    
+                    </Wrap>
+                </VStack>
+            </Container>
         );
         }
     }

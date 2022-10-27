@@ -1,4 +1,4 @@
-import { Heading, Image, Link, Text, VStack, Wrap, WrapItem } from '@chakra-ui/react';
+import { Heading, Link, VStack, Wrap, WrapItem } from '@chakra-ui/react';
 import React from 'react'
 
 class CommunitySponsors extends React.Component {
@@ -53,7 +53,7 @@ class CommunitySponsors extends React.Component {
                 <Heading fontSize='lg' mt='2rem' mb='0.5rem'>Community sponsors</Heading>
                 <Wrap justify='center'>
 
-                    {items.filter(i => (i.OwnerPublicKeyBase58Check != 'BC1YLjBvzHjemzgY4va55AzZ7VhRBLDmjxsfxRHQ9PybPARMQvtDH5N'
+                    {items.filter(i => (i.OwnerPublicKeyBase58Check !== 'BC1YLjBvzHjemzgY4va55AzZ7VhRBLDmjxsfxRHQ9PybPARMQvtDH5N'
                             && i.IsPending === false))
                         .sort((l, r) => l.SerialNumber - r.SerialNumber)
                         .map(item => (
