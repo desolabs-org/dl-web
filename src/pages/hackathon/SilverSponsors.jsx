@@ -1,4 +1,4 @@
-import { Container, Heading, Image, Link, VStack, Wrap, WrapItem } from '@chakra-ui/react';
+import { Container, Image, Link, Text, VStack, Wrap, WrapItem } from '@chakra-ui/react';
 import React from 'react'
 
 class SilverSponsors extends React.Component {
@@ -51,9 +51,6 @@ class SilverSponsors extends React.Component {
         return (
             <Container>
                 <VStack mt='2rem'>
-                    <Heading fontSize='lg'>
-                        Silver sponsors
-                    </Heading>
                     <Wrap
                         justify='center'
                     >
@@ -62,6 +59,7 @@ class SilverSponsors extends React.Component {
                         .map(item => (
                             <WrapItem key={'ss-' + item.SerialNumber}>
                                 <Link href={'https://diamondapp.com/u/' + item.ProfileEntryResponse.Username} target='_blank'>
+                                    <VStack spacing='0'>
                                     <Image 
                                         m='0.25rem'
                                         borderRadius='full'
@@ -70,6 +68,8 @@ class SilverSponsors extends React.Component {
                                         title={item.ProfileEntryResponse.Username}
                                         src={'https://diamondapp.com/api/v0/get-single-profile-picture/' + item.OwnerPublicKeyBase58Check + '?fallback=https://diamondapp.com/assets/img/default_profile_pic.png'} 
                                     />
+                                    <Text>{item.ProfileEntryResponse.Username}</Text>
+                                    </VStack>
                                 </Link>
                             </WrapItem>
                         ))}

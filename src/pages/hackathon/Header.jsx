@@ -88,8 +88,16 @@ export default function Header(props) {
                         rightIcon={<MdOutlineDoubleArrow />}
                         colorScheme='blue'
                         onClick={() => window.open('https://desolabs.nftz.me/', '_blank')}>View sponsorship NFTs</Button>
-                </VStack>
 
+                    <Container pt='3rem'>
+                        <Link href='https://deso.com' target='_blank'>
+                            <HStack>
+                                <Image src='https://www.deso.com/assets/img/logo-deso-white.svg' height='100%'/>
+                                <Text maxW='25rem'>Thank you to the DeSo Foundation for supporting this community event 🎉</Text>
+                            </HStack>
+                        </Link>
+                    </Container>    
+                </VStack>
             </VStack>
             </Box>
         </Container>

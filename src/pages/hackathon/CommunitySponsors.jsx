@@ -1,4 +1,4 @@
-import { Heading, Link, VStack, Wrap, WrapItem } from '@chakra-ui/react';
+import { Container, Link, Wrap, WrapItem } from '@chakra-ui/react';
 import React from 'react'
 
 class CommunitySponsors extends React.Component {
@@ -49,8 +49,7 @@ class CommunitySponsors extends React.Component {
         return <div>Loading...</div>;
         } else {
         return (
-            <VStack>
-                <Heading fontSize='lg' mt='2rem' mb='0.5rem'>Community sponsors</Heading>
+            <Container pt='2rem' maxW='100%'>
                 <Wrap justify='center'>
 
                     {items.filter(i => (i.OwnerPublicKeyBase58Check !== 'BC1YLjBvzHjemzgY4va55AzZ7VhRBLDmjxsfxRHQ9PybPARMQvtDH5N'
@@ -64,7 +63,7 @@ class CommunitySponsors extends React.Component {
                         </WrapItem>
                     ))}
                 </Wrap>
-            </VStack>
+            </Container>
         );
         }
     }

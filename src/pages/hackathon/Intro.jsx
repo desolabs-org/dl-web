@@ -16,12 +16,12 @@ export default function Intro() {
           <VStack spacing='1rem'>
             <Wrap>
               <WrapItem>
-                <VStack spacing='0'>
                 <Link href='https://diamondapp.com/u/pbmc' target='_blank'>
-                  <Image maxH='140px' src='https://images.deso.org/c4481270baa63ee8dbc038af372872a2fafbc0590044a2f86da246a25fc46e98.webp' />
+                  <VStack spacing='0'>
+                    <Image maxH='140px' src='https://images.deso.org/c4481270baa63ee8dbc038af372872a2fafbc0590044a2f86da246a25fc46e98.webp' />
+                    <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>PBMC</Text>
+                  </VStack>
                 </Link>
-                <Text fontSize='2xl' fontWeight='bold'>PBMC</Text>
-                </VStack>
               </WrapItem>
             </Wrap>
 
