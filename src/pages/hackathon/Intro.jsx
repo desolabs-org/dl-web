@@ -23,8 +23,15 @@ export default function Intro() {
                   </VStack>
                 </Link>
               </WrapItem>
+              <WrapItem>
+                <Link href='https://diamondapp.com/u/seelz' target='_blank'>
+                  <VStack spacing='0'>
+                    <Image maxH='140px' src='https://images.deso.org/1f61ec8d733c09099f2af1fc27cb2b3562f500d62ef6f6c39cdede0d2fbc57d9.gif' />
+                    <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>Seelz</Text>
+                  </VStack>
+                </Link>
+              </WrapItem>
             </Wrap>
-
             <SilverSponsors />
             <CommunitySponsors />
           </VStack>

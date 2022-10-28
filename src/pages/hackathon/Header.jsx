@@ -35,7 +35,7 @@ export default function Header(props) {
                 <VStack spacing='0'>
                     <Text fontSize='2xl' align="center"
                         fontFamily='monospace'>
-                        Current participants: 17+
+                        Current participants: 20+
                     </Text>
                     <Text fontSize='sm' as='em' px='1rem'>
                         improving our decentralized, social future
