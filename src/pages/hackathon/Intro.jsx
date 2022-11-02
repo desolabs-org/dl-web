@@ -31,6 +31,14 @@ export default function Intro() {
                   </VStack>
                 </Link>
               </WrapItem>
+              <WrapItem>
+                <Link href='https://diamondapp.com/u/tijn' target='_blank'>
+                  <VStack spacing='0'>
+                    <Image maxH='140px' src='/tijn_banner.png' />
+                    <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>tijn</Text>
+                  </VStack>
+                </Link>
+              </WrapItem>
             </Wrap>
             <SilverSponsors />
             <CommunitySponsors />

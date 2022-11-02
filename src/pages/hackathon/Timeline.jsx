@@ -34,7 +34,7 @@ export default function Timeline(props) {
                         rightIcon={<MdOutlineDoubleArrow />}
                         onClick={() => window.open('https://www.clubhouse.com/event/PY6Rvo7z', '_blank')}
                             colorScheme='blue'
-                        >Listen to the replay on Clubhouse</Button>
+                        >Event recording on Clubhouse</Button>
                 </VStack>
             </VerticalTimelineElement>
             
@@ -55,9 +55,9 @@ export default function Timeline(props) {
                     </Text>
                     <Button 
                         rightIcon={<MdOutlineDoubleArrow />}
-                        onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}
-                            color='green.800'
-                        >Sign up for the hackathon</Button>
+                        onClick={() => window.open('https://www.clubhouse.com/room/mJDrKlRQ', '_blank')}
+                        colorScheme='green'
+                        >Event recording on Clubhouse</Button>
                 </VStack>
             </VerticalTimelineElement>
             
@@ -93,13 +93,13 @@ export default function Timeline(props) {
                         Final call
                     </Heading>
                     <Text align='center'>
-                        We will stop accepting new participants into the hackathon and burn all remaining sponsor NFTs.
+                        We will stop accepting new participants into the hackathon.
                     </Text>
                     <Button 
                         rightIcon={<MdOutlineDoubleArrow />}
-                        onClick={() => window.open('https://desolabs.nftz.me/', '_blank')}
+                        onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}
                             color='purple.800'
-                        >Get them while you can!</Button>
+                        >Join the hackathon!</Button>
                 </VStack>
             </VerticalTimelineElement>
 
@@ -137,7 +137,7 @@ export default function Timeline(props) {
                         Hackathon ends
                     </Heading>
                     <Text align='center'>
-                        DeSoLabs crew stops accepting new submissions from participating projects and qualifying them for votes done by the sponsorship NFT owners.
+                        DeSoLabs crew stops accepting new submissions from participating projects and qualifying them for votes done by the sponsorship NFT owners. We will burn all remaining sponsor NFTs.
                     </Text>
                     <ProjectGrading />
                 </VStack>
