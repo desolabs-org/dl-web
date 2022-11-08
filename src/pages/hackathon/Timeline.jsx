@@ -93,12 +93,12 @@ export default function Timeline(props) {
                         Final call
                     </Heading>
                     <Text align='center'>
-                        We will stop accepting new participants into the hackathon.
+                        We are not accepting new participants into the hackathon anymore.
                     </Text>
                     <Button 
                         rightIcon={<MdOutlineDoubleArrow />}
-                        onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}
                             color='purple.800'
+                            disabled={true}
                         >Join the hackathon!</Button>
                 </VStack>
             </VerticalTimelineElement>

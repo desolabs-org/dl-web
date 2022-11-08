@@ -14,18 +14,15 @@ export default function MoreInfo() {
               <Text mt='4'>A person can be a member of only one hackathon team and a team can submit only one project to any of the categories.</Text>
               <Text mt='6'>Free for all category automatically includes all projects, also ones that don't fit in other categories. Projects don't have to be new products. We welcome pull request contributions, and technical documentation improvements.</Text>
               <Text mt='6'>
-                If devs can't review the technical blueprint or source code (and the project has one to review), it will most likely not be included in the hackathon. We will consider reviewing your technology in private if necessary and reasonable, but we will prefer and promote open and free proposals.
+                If devs can't review the technical blueprint or source code (and the project has one to review), it will most likely not be included in the hackathon. 
+                We will consider reviewing your technology in private if necessary and reasonable, but we will prefer and promote open and free proposals.
               </Text>
               <Text>
-              If users can't review the product (and the project has a visible part to it), it will most likely not be included in the hackathon. We will consider reviewing your demo product in private if necessary and reasonable, but we will prefer openly available projects that are free to try or use.
+              If users can't review the product (and the project has a visible part to it), it will most likely not be included in the hackathon. 
+              We will consider reviewing your demo product in private if necessary and reasonable, but we will prefer openly available projects that are free to try or use.
               </Text>
         </VStack>
       </Box>
-      <Heading mt='12'>Are you ready?</Heading>
-      <Button 
-      
-        rightIcon={<MdOutlineDoubleArrow />}
-        colorScheme='blue' onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}>Join the hackathon</Button>
     </>
   )
 }

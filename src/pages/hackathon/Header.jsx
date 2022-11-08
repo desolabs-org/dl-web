@@ -35,16 +35,12 @@ export default function Header(props) {
                 <VStack spacing='0'>
                     <Text fontSize='2xl' align="center"
                         fontFamily='monospace'>
-                        Current participants: 33+
+                        Current participants: 46
                     </Text>
                     <Text fontSize='sm' as='em' px='1rem'>
                         improving our decentralized, social future
                     </Text>
                 </VStack>
-                <Button 
-                  rightIcon={<MdOutlineDoubleArrow />}
-                  colorScheme='blue'
-                  onClick={() => window.open('https://tally.so/r/n0QXGP', '_blank')}>Join the hackathon</Button>
                 <HStack spacing='1rem'>
                     <ProjectsInfo />
                     <Button colorScheme='blue' variant='outline'
