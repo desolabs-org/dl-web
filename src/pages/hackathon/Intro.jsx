@@ -14,28 +14,36 @@ export default function Intro() {
       <VStack spacing='2rem'>
           <Heading fontSize='4xl'>Hackathon sponsors</Heading>
           <VStack spacing='1rem'>
-            <Wrap>
-              <WrapItem>
+            <Wrap justify='center'>
+              <WrapItem p='0.5rem'>
                 <Link href='https://diamondapp.com/u/pbmc' target='_blank'>
                   <VStack spacing='0'>
-                    <Image maxH='140px' src='https://images.deso.org/c4481270baa63ee8dbc038af372872a2fafbc0590044a2f86da246a25fc46e98.webp' />
+                    <Image maxH='120px' src='https://images.deso.org/c4481270baa63ee8dbc038af372872a2fafbc0590044a2f86da246a25fc46e98.webp' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>PBMC</Text>
                   </VStack>
                 </Link>
               </WrapItem>
-              <WrapItem>
+              <WrapItem p='0.5rem'>
                 <Link href='https://diamondapp.com/u/seelz' target='_blank'>
                   <VStack spacing='0'>
-                    <Image maxH='140px' src='/seelz_banner.gif' />
+                    <Image maxH='120px' src='/seelz_banner.gif' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>Seelz</Text>
                   </VStack>
                 </Link>
               </WrapItem>
-              <WrapItem>
+              <WrapItem p='0.5rem'>
                 <Link href='https://diamondapp.com/u/tijn' target='_blank'>
                   <VStack spacing='0'>
-                    <Image maxH='140px' src='/tijn_banner.png' />
+                    <Image maxH='120px' src='/tijn_banner.png' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>tijn</Text>
+                  </VStack>
+                </Link>
+              </WrapItem>
+              <WrapItem p='0.5rem'>
+                <Link href='https://diamondapp.com/u/WhaleSharkETH' target='_blank'>
+                  <VStack spacing='0'>
+                    <Image maxH='120px' src='/whalesharketh_banner.png' />
+                    <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>WhaleSharkETH</Text>
                   </VStack>
                 </Link>
               </WrapItem>
