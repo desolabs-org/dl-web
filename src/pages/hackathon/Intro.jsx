@@ -15,7 +15,7 @@ export default function Intro() {
           <Heading fontSize='4xl'>Hackathon sponsors</Heading>
           <VStack spacing='1rem'>
             <Wrap justify='center'>
-              <WrapItem p='0.5rem'>
+              <WrapItem>
                 <Link href='https://diamondapp.com/u/pbmc' target='_blank'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='https://images.deso.org/c4481270baa63ee8dbc038af372872a2fafbc0590044a2f86da246a25fc46e98.webp' />
@@ -23,7 +23,7 @@ export default function Intro() {
                   </VStack>
                 </Link>
               </WrapItem>
-              <WrapItem p='0.5rem'>
+              <WrapItem>
                 <Link href='https://diamondapp.com/u/seelz' target='_blank'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='/seelz_banner.gif' />
@@ -31,7 +31,7 @@ export default function Intro() {
                   </VStack>
                 </Link>
               </WrapItem>
-              <WrapItem p='0.5rem'>
+              <WrapItem>
                 <Link href='https://diamondapp.com/u/tijn' target='_blank'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='/tijn_banner.png' />
@@ -39,7 +39,7 @@ export default function Intro() {
                   </VStack>
                 </Link>
               </WrapItem>
-              <WrapItem p='0.5rem'>
+              <WrapItem>
                 <Link href='https://diamondapp.com/u/WhaleSharkETH' target='_blank'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='/whalesharketh_banner.png' />
