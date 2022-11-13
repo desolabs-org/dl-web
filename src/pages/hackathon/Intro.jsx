@@ -16,7 +16,7 @@ export default function Intro() {
           <VStack spacing='1rem'>
             <Wrap justify='center'>
               <WrapItem>
-                <Link href='https://diamondapp.com/u/pbmc' target='_blank'>
+                <Link href='https://diamondapp.com/u/pbmc' target='_blank' marginBottom='12px'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='https://images.deso.org/c4481270baa63ee8dbc038af372872a2fafbc0590044a2f86da246a25fc46e98.webp' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>PBMC</Text>
@@ -24,7 +24,7 @@ export default function Intro() {
                 </Link>
               </WrapItem>
               <WrapItem>
-                <Link href='https://diamondapp.com/u/seelz' target='_blank'>
+                <Link href='https://diamondapp.com/u/seelz' target='_blank' marginBottom='12px'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='/seelz_banner.gif' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>Seelz</Text>
@@ -32,17 +32,15 @@ export default function Intro() {
                 </Link>
               </WrapItem>
               <WrapItem>
-                <Link href='https://diamondapp.com/u/tijn' target='_blank'>
+                <Link href='https://diamondapp.com/u/tijn' target='_blank' marginBottom='12px'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='/tijn_banner.png' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>tijn</Text>
                   </VStack>
                 </Link>
               </WrapItem>
-            </Wrap>
-            <Wrap justify='center'>
               <WrapItem>
-                <Link href='https://diamondapp.com/u/WhaleSharkETH' target='_blank'>
+                <Link href='https://diamondapp.com/u/WhaleSharkETH' target='_blank' marginBottom='12px'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='/whalesharketh_banner.png' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>WhaleSharkETH</Text>
@@ -50,10 +48,26 @@ export default function Intro() {
                 </Link>
               </WrapItem>
               <WrapItem>
-                <Link href='https://diamondapp.com/u/GOOSIES' target='_blank'>
+                <Link href='https://diamondapp.com/u/GOOSIES' target='_blank' marginBottom='12px'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='https://thewaut5nqfsxrszhplrn6z77pb3bzdoq2cetx75qkrw2iimdf4a.arweave.net/mclgUn1sCyvGWTvXFvs_-8Ow5G6GhEnf_YKjbSEMGXg' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>GOOSIES</Text>
+                  </VStack>
+                </Link>
+              </WrapItem>
+              <WrapItem>
+                <Link href='https://diamondapp.com/u/MissKatiann' target='_blank' marginBottom='12px'>
+                  <VStack spacing='0'>
+                    <Image maxH='120px' src='/misskatiann_banner.png' />
+                    <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>MissKatiann</Text>
+                  </VStack>
+                </Link>
+              </WrapItem>
+              <WrapItem>
+                <Link href='https://diamondapp.com/u/Desomon' target='_blank' marginBottom='12px'>
+                  <VStack spacing='0'>
+                    <Image maxH='120px' src='/desomon_banner.png' />
+                    <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>Desomon</Text>
                   </VStack>
                 </Link>
               </WrapItem>
