@@ -66,7 +66,7 @@ export default function Intro() {
               <WrapItem>
                 <Link href='https://desocialworld.com/u/Desomon' target='_blank' marginBottom='12px'>
                   <VStack spacing='0'>
-                    <Image maxH='120px' src='/desomon_banner.png' />
+                    <Image maxH='120px' src='/desomon_banner.jpg' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>Desomon</Text>
                   </VStack>
                 </Link>
