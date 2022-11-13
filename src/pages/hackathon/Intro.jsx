@@ -39,11 +39,21 @@ export default function Intro() {
                   </VStack>
                 </Link>
               </WrapItem>
+            </Wrap>
+            <Wrap justify='center'>
               <WrapItem>
                 <Link href='https://diamondapp.com/u/WhaleSharkETH' target='_blank'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='/whalesharketh_banner.png' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>WhaleSharkETH</Text>
+                  </VStack>
+                </Link>
+              </WrapItem>
+              <WrapItem>
+                <Link href='https://diamondapp.com/u/GOOSIES' target='_blank'>
+                  <VStack spacing='0'>
+                    <Image maxH='120px' src='https://thewaut5nqfsxrszhplrn6z77pb3bzdoq2cetx75qkrw2iimdf4a.arweave.net/mclgUn1sCyvGWTvXFvs_-8Ow5G6GhEnf_YKjbSEMGXg' />
+                    <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>GOOSIES</Text>
                   </VStack>
                 </Link>
               </WrapItem>
