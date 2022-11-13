@@ -64,7 +64,7 @@ export default function Intro() {
                 </Link>
               </WrapItem>
               <WrapItem>
-                <Link href='https://diamondapp.com/u/Desomon' target='_blank' marginBottom='12px'>
+                <Link href='https://desocialworld.com/u/Desomon' target='_blank' marginBottom='12px'>
                   <VStack spacing='0'>
                     <Image maxH='120px' src='/desomon_banner.png' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>Desomon</Text>
