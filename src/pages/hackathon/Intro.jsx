@@ -50,7 +50,7 @@ export default function Intro() {
               <WrapItem>
                 <Link href='https://diamondapp.com/u/GOOSIES' target='_blank' marginBottom='12px'>
                   <VStack spacing='0'>
-                    <Image maxH='120px' src='https://thewaut5nqfsxrszhplrn6z77pb3bzdoq2cetx75qkrw2iimdf4a.arweave.net/mclgUn1sCyvGWTvXFvs_-8Ow5G6GhEnf_YKjbSEMGXg' />
+                    <Image maxH='120px' src='https://exfbi3ygsxnt3pzxlagyggftx47j7agsjh4aivbjyf2jsehwzdgq.arweave.net/JcoUbwaV2z2_N1gNgxizvz6fgNJJ-ARUKcF0mRD2yM0' />
                     <Text fontSize='2xl' fontWeight='bold' color='#f3e07b'>GOOSIES</Text>
                   </VStack>
                 </Link>
