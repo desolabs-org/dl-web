@@ -119,8 +119,9 @@ export default function Timeline(props) {
                         Voting on projects starts on a first come first serve basis, no new project teams will be added to the hackathon.
                     </Text>
                     <Button color='green.800'
-                        disabled={true}
-                        >Voting machine (TBA)</Button>
+                            rightIcon={<MdOutlineDoubleArrow />}
+                            onClick={() => window.open('https://diamondapp.com/u/desolabs', '_blank')}
+                        >DM or tag @DeSoLabs</Button>
                 </VStack>
             </VerticalTimelineElement>
             
@@ -160,8 +161,9 @@ export default function Timeline(props) {
                     </Text>
                     <Button 
                             color='yellow.800'
-                            disabled={true}
-                        >Awards event (TBA)</Button>
+                            rightIcon={<MdOutlineDoubleArrow />}
+                            onClick={() => window.open('https://discord.gg/PSgj6cdA?event=1047486318105600030', '_blank')}
+                        >Awards event</Button>
                 </VStack>
             </VerticalTimelineElement>
             
